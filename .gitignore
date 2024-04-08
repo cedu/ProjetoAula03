@@ -1,52 +1,29 @@
-# Arquivos temporários
-*~
-*.swp
+# Arquivos temporários do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Arquivos de compilação
-*.dll
-*.exe
-*.pdb
-*.suo
-*.cache
-*.log
-*.vscode
-*.vs
-obj/
-bin/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
 
-# Dependências
-/bin/
-/obj/
-/packages/
-
-# Arquivos de configuração
-*.config
-Web.config
-
-# Arquivos de usuário
-*.user
-*.suo
-*.sln.docstates
-
-# Logs e resultados de teste
-*.VisualState.xml
-TestResult.xml
-
-# Arquivos de publicação
-_PublishedWebsites/
-pubxml
-
-# Arquivos do Visual Studio
-*.user
-*.suo
-*.cache
-*.sln.docstates
-
-# Arquivos de registro
-*.log
-
-# Arquivos de backup do Visual Studio
-Backup*/
-
-# Pasta de arquivos temporários
+# Arquivos gerados pela IDE
 .vs/
+*.vcxproj.filters
+*.VC.db
+*.opendb
+
+# Arquivos de backup
+*~ 
+*.swp
+*.tmp
+
+# Arquivos e pastas do sistema
+Thumbs.db
+.DS_Store
+
+
+
